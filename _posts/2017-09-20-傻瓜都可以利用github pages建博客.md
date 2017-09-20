@@ -1,4 +1,3 @@
-
 ---
 type: photo
 title: 傻瓜都可以利用github pages建博客
