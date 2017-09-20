@@ -1,19 +1,17 @@
 ---
 title: 傻瓜都可以利用github pages建博客
-categories:
- - Tech
 tags:github
 ---
 
-##1.前言
+## 1.前言
 
 鉴于我自身建站经历，不熟悉各种编码语言，口袋里没有多少钱，却殷切希望拥有一个独立的个人博客，在翻阅了各种教程后，看完各种眼花缭乱的代码后，终于将这个网站在github pages上搞出来了。在此，我不希望大家都重蹈覆辙，为了方便大家，我在此为大家做一个傻瓜教程
 
-##2.了解github
+## 2.了解github
 
 说了那么多，首先得了解一下什么是github，GitHub是一个共享虚拟主机服务，用于存放使用Git版本控制的软件代码和内容项目(引自维基百科）。说白了github就是开发者的百度云（有人说是Facebook），用来存储或者共享自己写的代码，非常便利，是近年来很火爆的一个网站服务。
 
-##3.为什么选择github?
+## 3.为什么选择github?
 
 能看到我的这篇文章的道友应该都知道，为什么我们要在github上建站？
 
@@ -21,7 +19,7 @@ github有一个很有爱的项目，叫做github pages，这个项目是给开�
 
 那么废话少说，开始我们的教程吧
 
-##4.注册github账号
+## 4.注册github账号
 
 打开[https://github.com/](https://github.com/)站点，注册一个账号
 
@@ -33,7 +31,7 @@ github有一个很有爱的项目，叫做github pages，这个项目是给开�
 1. 托管自己写的代码
 我们今天主要讨论的当然还是建立博客~
 
-#5.完成注册
+## 5.完成注册
 
 注册完后别急着关掉页面，先选择free来明确你老子就是冲着免费来的态度，然后甭管别的，直接点击下面绿色的Finish sign up
 
@@ -42,7 +40,7 @@ github有一个很有爱的项目，叫做github pages，这个项目是给开�
 
 接着，到你的邮箱验证账号，这样你才能之后生成你的个人主页
 
-#6.创建仓库
+## 6.创建仓库
 
 接下来到这个页面去创建一个新仓库
 [https://github.com/new](https://github.com/new)
@@ -55,19 +53,19 @@ github有一个很有爱的项目，叫做github pages，这个项目是给开�
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/build-repository.jpg)
 
-#7.进入仓库设置
+## 7.进入仓库设置
 
 建完仓库后，在当前页面右边选择Settings，进入设置页面，在这里生成你的github pages
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/settings.jpg)
 
-#8.自动生成博客
+## 8.自动生成博客
 
 在设置页面往下拉，在github pages那一栏点击“launch automatic page generator”
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/generate.jpg)
 
-#9.编辑用户界面
+## 9.编辑用户界面
 
 到这一步，其实是让你编辑你的页面上所展示的信息，如果你就只想有这一面的话，你就可以开始编辑了
 
@@ -81,7 +79,7 @@ body就是正文了
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/edit2.jpg)
 
-#10.公布页面
+## 10.公布页面
 
 这一步对于只要一个展示页面的同学来说，应该算是终结了，选择一个喜欢的主题模板，然后点击“Publish page”，你的页面就公布出来了！
 
@@ -89,11 +87,11 @@ body就是正文了
 
 如果还想继续做博客，那就继续看吧。
 
-#11.预览页面
+## 11.预览页面
 
 在继续教程前，你可以先预览一下你的页面，但实际你最后做出的效果会和这个比起来好几百倍，但你可以先确认一下能不能显示出页面来
 
-#12.下载安装github
+## 12.下载安装github
 
 下载属于你的系统的github，并安装
 
@@ -103,7 +101,7 @@ Mac： [https://mac.github.com/](https://mac.github.com/)
 
 我之后就用Windows示范了
 
-#13.克隆你的仓库
+## 13.克隆你的仓库
 
 登录你的账号，在左上角点击“+”，然后选择“clone”，点击存放你博客的仓库，把它克隆到本地，并选择存放克隆文件位置，一般默认就好
 
@@ -111,7 +109,7 @@ Mac： [https://mac.github.com/](https://mac.github.com/)
 
 默认的位置在我的文档下的github文件夹里
 
-#14.选择主题框架
+## 14.选择主题框架
 
 这时候，你就该真正考虑一下你的博客主题风格了，如果你前端开发的功底不好，就不建议频繁更换主题了，虽然要改也不是不行，只是要折腾就是了
 
@@ -127,12 +125,12 @@ Mac： [https://mac.github.com/](https://mac.github.com/)
 
 点击“downlod”，把它下载下来吧
 
-#15.应用主题
+## 15.应用主题
 
 打开存放你克隆下来仓库的文件夹，把里面的文件全部都删了（没错），除了隐藏文件夹“.git”不要删就好了，然后把模板里的东西全部拖到你的原博客仓库里
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/apply.jpg)
-#16.配置博客
+## 16.配置博客
 
 我先简单介绍一下这个仓库里的内容，你根据自身需要用文本编辑器来修改内容
 
@@ -150,7 +148,7 @@ _posts：这里面装的就是你的博文啦，记住，要用markdown语法写
 
 那么以上就是一个Jekyll规范的博客的基本内容了，想想也不难吧
 
-#17.上传到github
+## 17.上传到github
 
 现在你已经把博客基本配置完成了，那么就该把它上传到github公布吧
 
@@ -160,7 +158,7 @@ _posts：这里面装的就是你的博文啦，记住，要用markdown语法写
 
 ![](http://cyzus.github.io/img/2015-6-21-github-build-blog/sync.jpg)
 
-18.后记
+## 18.后记
 
 稍等一会儿，打开你的网站，就会发现你的博客已经神奇的出现了，
 比如我的：https://MagicYinuo.github.io/
