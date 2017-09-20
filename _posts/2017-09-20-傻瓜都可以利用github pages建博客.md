@@ -1,9 +1,4 @@
----
-type: photo
-title: 傻瓜都可以利用github pages建博客
-date: 2017-19-21 15:45:20
-category: Photo
----
+
 
 ## 1.前言
 
