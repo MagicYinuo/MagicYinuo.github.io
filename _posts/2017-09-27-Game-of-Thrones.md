@@ -9,6 +9,7 @@ author: jack
 * content
 {:toc}
 
+![](https://github.com/MagicYinuo/MagicYinuo.github.io/blob/master/pics/thrones-hardhome.jpg)
 ## 权力的游戏 S08 E01 泄露剧本
 
 HBO LEAK
